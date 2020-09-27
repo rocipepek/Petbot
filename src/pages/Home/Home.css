@@ -1,0 +1,29 @@
+.home-jellybot-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-jellybot-content {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+}
+
+.home-jellybot-greeting{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e9e9e9;
+}
+
+.home-jellybot-greeting label {
+    margin-bottom: 10px;
+}

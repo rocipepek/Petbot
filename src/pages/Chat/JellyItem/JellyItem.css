@@ -1,0 +1,27 @@
+.jelly-item-container {
+    display: flex;
+    max-width: 90%;
+}
+
+.jelly-item-container img {
+    height: 60px;
+}
+
+.jelly-item-container label {
+    margin: 0 0 5px 10px;
+    font-size: 14px;
+    color: rgb(235, 230, 230);
+    background: rgb(29, 75, 202);
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.jelly-item-messages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
